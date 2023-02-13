@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  top: 1rem;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+#timer {
+  background-color: white;
+  font-size: 30px;
+  height: 39px;
+  width: 90px;
+  border-radius: 5px;
+  margin-right: 4rem;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 4rem;
+  top: 5rem;
+}
+
+.levels {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.levels div {
+  width: 8rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  user-select: none;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.difficulties {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.difficulties div {
+  width: 8rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  user-select: none;
+  border-radius: 4px;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.webgl {
+  top: 0;
+  left: 0;
+  outline: none;
+  position: fixed;
+  width: 100vh;
+  height: 100vh;
+}
+
+#level-2 {
+  background-color: yellowgreen;
+}
+
+#difficulty-beginner {
+  background-color: lightskyblue;
+}
+
+.container-restart.visible {
+  position: absolute;
+  display: flex;
+  top: 25%;
+  z-index: 1;
+  height: 50%;
+  background-color: #00000099;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+#restart {
+  background-color: white;
+  font-size: 30px;
+  height: 10vh;
+  width: auto;
+  border-radius: 5px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#restart:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+  #timer {
+    margin-right: 3.5rem;
+    font-size: 28px;
+    height: 37px;
+    width: 85px;
+  }
+
+  .levels div {
+    width: 6rem;
+    font-size: 16px;
+  }
+
+  .difficulties div {
+    width: 6rem;
+    font-size: 16px;
+  }
+
+  .buttons-container {
+    gap: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #timer {
+    margin-right: 3rem;
+    font-size: 26px;
+    height: 34px;
+    width: 80px;
+  }
+
+  .levels div {
+    width: 5rem;
+    font-size: 14px;
+  }
+
+  .difficulties div {
+    width: 5rem;
+    font-size: 14px;
+  }
+
+  .buttons-container {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #timer {
+    margin-right: 2rem;
+    font-size: 20px;
+    height: 27px;
+    width: 70px;
+  }
+
+  .levels div {
+    width: 4rem;
+    font-size: 12px;
+  }
+
+  .difficulties div {
+    width: 4rem;
+    font-size: 12px;
+  }
+
+  .buttons-container {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+  }
+
+  #timer {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    height: 30px;
+    width: 70px;
+  }
+
+  .levels div {
+    width: 4rem;
+    font-size: 10px;
+  }
+
+  .difficulties div {
+    width: 4rem;
+    font-size: 10px;
+  }
+
+  .buttons-container {
+    gap: 1rem;
+    flex-direction: column;
+  }
+}
