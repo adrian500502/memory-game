@@ -72,10 +72,10 @@ scene.add(camera);
 const controls = new OrbitControls(camera, canvas);
 controls.enableDamping = true;
 controls.enablePan = false;
-// controls.minPolarAngle = Math.PI * 0.25;
-// controls.maxPolarAngle = Math.PI * 0.75;
-// controls.minAzimuthAngle = -Math.PI / 3;
-// controls.maxAzimuthAngle = Math.PI / 3;
+controls.minPolarAngle = Math.PI * 0.25;
+controls.maxPolarAngle = Math.PI * 0.75;
+controls.minAzimuthAngle = -Math.PI / 3;
+controls.maxAzimuthAngle = Math.PI / 3;
 
 // Renderer
 const renderer = new THREE.WebGLRenderer({
