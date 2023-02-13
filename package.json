@@ -1,7 +1,7 @@
 {
-  "name": "engineer-memory-game",
+  "name": "memory-game",
   "version": "1.0.0",
-  "description": "Interactive, educational games created with the help of Three JS library as well as React Three Fiber.",
+  "description": "Interactive, educational games created with the help of Three JS library.",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,18 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrian500502/engineer-memory-game.git"
+    "url": "git+https://github.com/adrian500502/memory-game.git"
   },
   "keywords": [],
   "author": "Adrian Bruź",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adrian500502/engineer-memory-game/issues"
+    "url": "https://github.com/adrian500502/memory-game/issues"
   },
-  "homepage": "https://github.com/adrian500502/engineer-memory-game#readme",
+  "homepage": "https://github.com/adrian500502/memory-game#readme",
   "dependencies": {
     "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
+    "axios": "^1.3.2",
     "babel-loader": "^9.1.0",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
@@ -40,11 +41,6 @@
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
-  },
-  "devDependencies": {
-    "vercel": "^28.15.1",
-    "lil-gui": "^0.17.0",
-    "stats.js": "^0.17.0"
   },
   "prettier": {
     "tabWidth": 2,

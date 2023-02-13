@@ -2,22 +2,26 @@
 
 Memory Game - gra pamięciowa
 
+## Demo
+
+Wersja demonstracyjna gry dostępna pod adresem: https://memory-game-ab.vercel.app/ (na dzień 08.02.23).
+
 ## Wymagania
-
-Zainstaluj:
-
-- Node.js v16.15.0+
 
 Włącz:
 
 - W przeglądarce Chrome, opcję "Użyj akceleracji sprzętowej, gdy jest dostępna".
 - W przeglądarce Firefox, opcję "Korzystaj ze sprzętowego przyspieszania, jeśli jest dostępne".
 
+Do lokalnego odtworzenia, zainstaluj:
+
+- Node.js v16.15.0+
+
 ### Instalacja
 
 Odtwórz poniższe czynności, aby pobrać zależności potrzebne do lokalnego wystartowania projektu:
 
-1. Sklonuj repozytorium: `git clone https://github.com/adrian500502/engineer-memory-game.git`
+1. Sklonuj repozytorium: `git clone https://github.com/adrian500502/memory-game.git`
 2. Przejdź do katalogu z projektem: `cd ścieżka/do/katalogu`
 3. Zainstaluj potrzebne pakiety zależności: `npm install`
 
