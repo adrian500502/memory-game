@@ -10,8 +10,8 @@ Wersja demonstracyjna gry dostępna pod adresem: https://memory-game-ab.vercel.a
 
 Włącz:
 
-- W przeglądarce Chrome, opcję "Użyj akceleracji sprzętowej, gdy jest dostępna".
-- W przeglądarce Firefox, opcję "Korzystaj ze sprzętowego przyspieszania, jeśli jest dostępne".
+- W przeglądarce Chrome opcję "Użyj akceleracji sprzętowej, gdy jest dostępna".
+- W przeglądarce Firefox opcję "Korzystaj ze sprzętowego przyspieszania, jeśli jest dostępne".
 
 Do lokalnego odtworzenia, zainstaluj:
 
@@ -21,9 +21,8 @@ Do lokalnego odtworzenia, zainstaluj:
 
 Odtwórz poniższe czynności, aby pobrać zależności potrzebne do lokalnego wystartowania projektu:
 
-1. Sklonuj repozytorium: `git clone https://github.com/adrian500502/memory-game.git`
-2. Przejdź do katalogu z projektem: `cd ścieżka/do/katalogu`
-3. Zainstaluj potrzebne pakiety zależności: `npm install`
+1. Przejdź w terminalu do katalogu z projektem: `cd ścieżka/do/katalogu`
+2. Zainstaluj potrzebne pakiety zależności: `npm install`
 
 ### Start aplikacji
 
@@ -38,4 +37,4 @@ Aplikacja włączy się automatycznie w nowym oknie przeglądarki. Dokładne inf
 1. Wybierz poziom gry i poziom trudności lub rozpocznij rozgrywkę z konfiguracją domyślną.
 2. Najedź kursorem na kafelek i kliknij na niego.
 3. To samo zrób dla kolejnego bloku.
-4. Dobieraj kolejne pary słowo-obraz, odpowiadające poszczególnym zwierzętom, dopóki nie zabraknie kafelków lub nie upłynie przewidziany na grę czas.
+4. Dobieraj kolejne pary słowo-obraz odpowiadające poszczególnym zwierzętom, dopóki nie zabraknie kafelków lub nie upłynie przewidziany na grę czas.
